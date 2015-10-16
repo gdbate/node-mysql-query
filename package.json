@@ -1,0 +1,38 @@
+{
+  "name": "node-mysql-query",
+  "version": "0.5.4",
+	"description": "A lightweight Promise-based Query generator to be used with node-mysql-helper.",
+	"homepage": "https://github.com/gdbate/node-mysql-query",
+	"author": "Greg Bate <gdbate@gmail.com> (https://github.com/gdbate)",
+	"keywords": [
+		"node",
+		"npm",
+		"mysql",
+		"felixge",
+		"query",
+		"generator",
+		"generation",
+		"select",
+		"join",
+		"left join",
+		"promise",
+		"async",
+		"defer",
+		"deferred"
+	],
+	"contributors": [
+		"Greg Bate <gdbate@gmail.com> (https://github.com/gdbate)"
+	],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/gdbate/node-mysql-query.git"
+  },
+  "bugs": {
+    "mail": "gdbate@gmail.com",
+    "url": "http://github.com/gdbate/node-mysql-query/issues"
+  },
+	"license": "MIT",
+  "dependencies": {
+    "node-mysql-helper":">= 0.5.6"
+  }
+}
