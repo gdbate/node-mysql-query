@@ -17,6 +17,10 @@ All fields must be enclosed with backticks like ``` `fieldname` ``` (referring t
 
 If you do not use ```AS``` the results will always be returned as ``` tablename.fieldname ```.
 
+Uppercase [Mysql Reserved Words](https://dev.mysql.com/doc/refman/5.7/en/keywords.html) will automatically be recognized. If you want to enforce a string rather than a reserved word, you have two options:
+- Do not have the string all uppercase
+- Wrap the string in quotes (single or double)
+
 ##Simple Example
 
 
@@ -69,3 +73,4 @@ var Query = require('node-mysql-query');
 	* complex where statements
 	* having & grouping
 * A lot more testing
+* Subquery Support
